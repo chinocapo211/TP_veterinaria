@@ -1,38 +1,38 @@
-.App {
+.boton-eliminar{
+  background-color: #fc7f7f; /* Color de fondo rojo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 8px 16px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de apuntar */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.boton-eliminar:hover {
+  background-color: #cf6b6b; /* Color de fondo rojo más oscuro al pasar el ratón */
+}
+.App{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+h1{
+  margin-top: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cita-card{
+  border: 2px solid rgb(73, 73, 73);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#arreglo{
+  color: grey;
+  padding-right: 150px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
